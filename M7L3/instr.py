@@ -3,7 +3,14 @@ win_x, win_y = 200, 100
 win_width, win_height = 1000, 600
 
 txt_hello = 'Welcome to the Health status detection program!'
-txt_instruction = 'This application allows you to use the Rufier test for...'
+txt_instruction = ('This application allows you to use the Rufier test to make an initial diagnosis of your health.\n'
+                   'The Rufier test is a set of physical exercises designed to assess your cardiac performance during physical exertion.\n'
+                   'The subject lies in the supine position for 5 minutes and has their pulse rate measured for 15 seconds;\n'
+                   'then, within 45 seconds, the subject performs 30 squats.\n'
+                   'When the exercise ends, the subject lies down and their pulse is measured again for the first 15 seconds\n'
+                   'and then for the last 15 seconds of the first minute of the recovery period.\n'
+                   'Important! If you feel unwell during the test (dizziness,\n'
+                   'tinnitus, shortness of breath, etc.), stop the test and consult a physician.')
 txt_next = 'Start'
 
 txt_name = 'Enter Your full name:'
@@ -19,11 +26,16 @@ txt_starttest3 = 'Start the final test'
 txt_sendresults = 'Send the results'
 
 txt_hintname = "Full name"
-txt_hintage = "0"
-txt_hinttest1 = '0'
-txt_hinttest2 = '0'
-txt_hinttest3 = '0'
+txt_hintage = "Years"
+txt_hinttest1 = 'Pulse in 15s'
+txt_hinttest2 = 'Pulse 15s after squat'
+txt_hinttest3 = 'Pulse after 30s break'
 
 txt_finalwin = 'Results'
-txt_workheart = 'Cardiac performance: '
 txt_index = 'Roufier Index: '
+txt_workheart = 'Cardiac performance: '
+txt_res1 = "low. See your doctor right away!"
+txt_res2 = "satisfactory. See your doctor!"
+txt_res3 = "average. It may be worth seeing your doctor to get checked out."
+txt_res4 = "above average"
+txt_res5 = "high"
